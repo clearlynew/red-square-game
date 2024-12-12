@@ -22,5 +22,6 @@ function addScore(randnum){
 
     if (greensq===64){
         document.querySelector("h1").innerHTML="You Won!";
+        document.querySelector("button").disabled=true;
     }
 }
